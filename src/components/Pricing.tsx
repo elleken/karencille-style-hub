@@ -8,7 +8,6 @@ const Pricing = () => {
         { name: "Børneklip (5-12 år)", price: "Fra 400,-" },
         { name: "Babyklip (0-2,5 år)", price: "Fra 350,-" },
       ],
-      note: "Tillæg for langt/tykt hår",
     },
     {
       title: "Striber",
@@ -17,7 +16,6 @@ const Pricing = () => {
         { name: "Hele hoved – skulder/mellem", price: "Fra 1.650,-" },
         { name: "Hele hoved – langt", price: "Fra 1.850,-" },
       ],
-      note: "Tillæg 200,-",
     },
     {
       title: "Helfarve",
@@ -27,7 +25,6 @@ const Pricing = () => {
         { name: "Skulderlængde", price: "Fra 995,-" },
         { name: "Langt hår", price: "Fra 1.395,-" },
       ],
-      note: "Tillæg for tykt hår 100,-",
     },
     {
       title: "Glossing",
@@ -44,7 +41,6 @@ const Pricing = () => {
         { name: "Skulderlængde", price: "Fra 1.845,-" },
         { name: "Langt", price: "Fra 2.245,-" },
       ],
-      note: "Tillæg 200,-",
     },
     {
       title: "Extensions",
@@ -88,9 +84,6 @@ const Pricing = () => {
                       <span className="text-muted-foreground font-medium">{service.price}</span>
                     </div>
                   ))}
-                  {category.note && (
-                    <p className="text-sm text-muted-foreground italic pt-1">{category.note}</p>
-                  )}
                 </div>
               </div>
             </div>
