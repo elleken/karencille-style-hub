@@ -55,9 +55,6 @@ const Header = () => {
             <button onClick={() => scrollToSection("contact")} className="text-foreground hover:text-foreground/70 transition-colors font-bold text-sm">
               Kontakt
             </button>
-            <a href="tel:+4512345678" className="text-foreground hover:text-foreground/70 transition-colors">
-              <Phone className="w-5 h-5" />
-            </a>
           </div>
         </div>
       </nav>
