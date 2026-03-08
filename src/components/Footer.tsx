@@ -38,7 +38,7 @@ const Footer = () => {
               <p>+45 12 34 56 78</p>
               <p className="flex items-center gap-2">
                 <Mail className="w-4 h-4" />
-                info@kwcl-salon.dk
+                cillelundqvist@gmail.com
               </p>
             </div>
           </div>
