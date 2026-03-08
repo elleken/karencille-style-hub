@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { Menu, X, Phone } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import logoImg from "@/assets/logo-cl.png";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -17,7 +16,7 @@ const Header = () => {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-primary backdrop-blur-sm">
       <nav className="container mx-auto px-4 py-2 flex items-center">
-        {/* Left: Logo + mobile menu */}
+        {/* Left: Phone + mobile menu */}
         <div className="flex items-center gap-2 w-1/3">
           <Button
             variant="ghost"
@@ -27,7 +26,9 @@ const Header = () => {
           >
             {isMenuOpen ? <X /> : <Menu />}
           </Button>
-          <img src={logoImg} alt="CL Logo" className="h-10 md:h-12" />
+          <a href="tel:+4512345678" className="text-primary-foreground hover:text-primary-foreground/80 transition-colors">
+            <Phone className="w-5 h-5" />
+          </a>
         </div>
 
         {/* Center: Name */}
@@ -39,10 +40,6 @@ const Header = () => {
 
         {/* Right: Nav + phone */}
         <div className="w-1/3 flex items-center justify-end gap-6">
-          {/* Phone icon (mobile) */}
-          <a href="tel:+4512345678" className="md:hidden text-foreground">
-            <Phone className="w-5 h-5" />
-          </a>
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex gap-6 items-center">
