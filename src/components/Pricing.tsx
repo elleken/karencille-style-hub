@@ -22,10 +22,10 @@ const Pricing = () => {
     {
       title: "Helfarve",
       services: [
-        { name: "Bundfarve", price: "550,-" },
-        { name: "Kort hår", price: "600,-" },
-        { name: "Skulderlængde", price: "995,-" },
-        { name: "Langt hår", price: "1.395,-" },
+        { name: "Bundfarve", price: "Fra 550,-" },
+        { name: "Kort hår", price: "Fra 600,-" },
+        { name: "Skulderlængde", price: "Fra 995,-" },
+        { name: "Langt hår", price: "Fra 1.395,-" },
       ],
       note: "Tillæg for tykt hår 100,-",
     },
