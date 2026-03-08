@@ -48,6 +48,7 @@ const Pricing = () => {
       services: [
         { name: "Oprykning med tape", price: "Fra 1.280,-" },
       ],
+      note: "Ved opstart af nye extensions, ring for yderligere information",
     },
     {
       title: "Kur",
@@ -85,6 +86,11 @@ const Pricing = () => {
                       <span className="text-muted-foreground font-medium">{service.price}</span>
                     </div>
                   ))}
+                  {'note' in category && category.note && (
+                    <p className="text-sm text-muted-foreground italic mt-3 pt-3 border-t border-border">
+                      {category.note}
+                    </p>
+                  )}
                 </div>
               </div>
             </div>
