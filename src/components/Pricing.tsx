@@ -3,53 +3,53 @@ const Pricing = () => {
     {
       title: "Klip",
       services: [
-        { name: "Dameklip", price: "525,-" },
-        { name: "Herreklip", price: "455,-" },
-        { name: "Børneklip (5-12 år)", price: "400,-" },
-        { name: "Babyklip (0-2,5 år)", price: "350,-" },
+        { name: "Dameklip", price: "Fra 525,-" },
+        { name: "Herreklip", price: "Fra 455,-" },
+        { name: "Børneklip (5-12 år)", price: "Fra 400,-" },
+        { name: "Babyklip (0-2,5 år)", price: "Fra 350,-" },
       ],
       note: "Tillæg for langt/tykt hår",
     },
     {
       title: "Striber",
       services: [
-        { name: "Top og sider", price: "1.350,-" },
-        { name: "Hele hoved – skulder/mellem", price: "1.650,-" },
-        { name: "Hele hoved – langt", price: "1.850,-" },
+        { name: "Top og sider", price: "Fra 1.350,-" },
+        { name: "Hele hoved – skulder/mellem", price: "Fra 1.650,-" },
+        { name: "Hele hoved – langt", price: "Fra 1.850,-" },
       ],
       note: "Tillæg 200,-",
     },
     {
       title: "Helfarve",
       services: [
-        { name: "Bundfarve", price: "550,-" },
-        { name: "Kort hår", price: "600,-" },
-        { name: "Skulderlængde", price: "995,-" },
-        { name: "Langt hår", price: "1.395,-" },
+        { name: "Bundfarve", price: "Fra 550,-" },
+        { name: "Kort hår", price: "Fra 600,-" },
+        { name: "Skulderlængde", price: "Fra 995,-" },
+        { name: "Langt hår", price: "Fra 1.395,-" },
       ],
       note: "Tillæg for tykt hår 100,-",
     },
     {
       title: "Glossing",
       services: [
-        { name: "Kort", price: "500,-" },
-        { name: "Skulder", price: "600,-" },
-        { name: "Langt", price: "700,-" },
+        { name: "Kort", price: "Fra 500,-" },
+        { name: "Skulder", price: "Fra 600,-" },
+        { name: "Langt", price: "Fra 700,-" },
       ],
     },
     {
       title: "Balayage",
       services: [
-        { name: "Top og sider", price: "1.650,-" },
-        { name: "Skulderlængde", price: "1.845,-" },
-        { name: "Langt", price: "2.245,-" },
+        { name: "Top og sider", price: "Fra 1.650,-" },
+        { name: "Skulderlængde", price: "Fra 1.845,-" },
+        { name: "Langt", price: "Fra 2.245,-" },
       ],
       note: "Tillæg 200,-",
     },
     {
       title: "Extensions",
       services: [
-        { name: "Opsætning", price: "160,-" },
+        { name: "Opsætning", price: "Fra 160,-" },
       ],
     },
     {
@@ -67,7 +67,7 @@ const Pricing = () => {
           <h2 className="text-4xl md:text-5xl font-heading font-bold mb-6">Priser</h2>
           <div className="w-24 h-1 bg-primary mx-auto mb-8"></div>
           <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            Alle priser er fra-priser. Kontakt mig for en uforpligtende vurdering af dit hår.
+            Alle priser er vejledende. Kontakt mig for en uforpligtende vurdering af dit hår.
           </p>
         </div>
 
