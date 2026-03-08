@@ -46,7 +46,7 @@ const Pricing = () => {
     {
       title: "Extensions",
       services: [
-        { name: "Opsætning", price: "Fra 160,-" },
+        { name: "Oprykning", price: "Fra 1.280,-" },
       ],
     },
     {
