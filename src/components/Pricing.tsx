@@ -13,9 +13,9 @@ const Pricing = () => {
     {
       title: "Striber",
       services: [
-        { name: "Top og sider", price: "1.350,-" },
-        { name: "Hele hoved – skulder/mellem", price: "1.650,-" },
-        { name: "Hele hoved – langt", price: "1.850,-" },
+        { name: "Top og sider", price: "Fra 1.350,-" },
+        { name: "Hele hoved – skulder/mellem", price: "Fra 1.650,-" },
+        { name: "Hele hoved – langt", price: "Fra 1.850,-" },
       ],
       note: "Tillæg 200,-",
     },
