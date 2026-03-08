@@ -7,10 +7,6 @@ const About = () => {
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-heading font-bold mb-6">Om Os</h2>
           <div className="w-24 h-1 bg-accent mx-auto mb-8"></div>
-          <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            Cille Lundqvist er mere end bare en frisørsalon—det er en destination
-            for dem, der sætter pris på kunsten i raffineret styling og exceptionel service.
-          </p>
         </div>
 
         <div className="mb-16 max-w-5xl mx-auto flex flex-col md:flex-row gap-10 items-center">
@@ -24,20 +20,17 @@ const About = () => {
             </div>
           </div>
           <div className="w-full md:w-3/5 prose prose-lg">
-            <p className="text-foreground/90 leading-relaxed mb-6">
-              Grundlagt på principperne om elegance, ekspertise og autenticitet, er vores salon blevet 
-              et fristed for klienter, der søger mere end bare en klipning. Vi mener, at hvert besøg skal 
-              være en oplevelse—en der efterlader dig selvsikker, forfrisket og virkelig værdsat.
+            <p className="text-foreground font-heading text-2xl md:text-3xl font-bold leading-snug mb-6">
+              Med mere end 20 års erfaring i frisørfaget har jeg opbygget en passion for at skabe hår, der både ser smukt ud og føles sundt.
             </p>
             <p className="text-foreground/90 leading-relaxed mb-6">
-              Vores hold af dygtige frisører kombinerer traditionelle teknikker med moderne trends og 
-              sikrer, at hver behandling er skræddersyet til din unikke stil og præferencer. Fra præcise 
-              klipninger til farveomdannelser behandler vi hver detalje med omhu og dedikation.
+              Jeg har blandt andet arbejdet 5 år på Østerbro, hvor fokus altid har været på kvalitet, personlig rådgivning og skræddersyede behandlinger.
+            </p>
+            <p className="text-foreground/90 leading-relaxed mb-6">
+              Hos mig handler en frisørbehandling om mere end bare hår. Det er en oplevelse, hvor der er tid til at finde frem til den stil, der passer perfekt til dig, din personlighed og din hverdag.
             </p>
             <p className="text-foreground/90 leading-relaxed">
-              Træd ind i vores moderne, indbydende rum, hvor luksus møder komfort. Vi er forpligtet til 
-              at bruge bæredygtige produkter af høj kvalitet, der nærer dit hår og samtidig beskytter 
-              miljøet.
+              Jeg arbejder med <strong>Natulique</strong>, en eksklusiv og grønnere hårplejeserie, der er kendt for sine naturlige ingredienser og skånsomme formuleringer. Produkterne er udviklet med omtanke for både <strong>hår, hovedbund og miljø</strong>, uden at gå på kompromis med resultatet.
             </p>
           </div>
         </div>
