@@ -88,7 +88,7 @@ const Pricing = () => {
                     </div>
                   ))}
                   {'note' in category && category.note && (
-                    <p className="text-sm text-muted-foreground italic mt-3 pt-3 border-t border-border">
+                    <p className="text-sm text-muted-foreground italic mt-3">
                       {category.note}
                     </p>
                   )}
