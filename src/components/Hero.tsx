@@ -36,7 +36,7 @@ const Hero = () => {
             <h3 className="text-lg font-heading font-semibold text-foreground mb-1">Ring nu</h3>
             <p className="text-sm text-foreground mb-3">Ring og bestil tid i dag</p>
             <a
-              href="tel:+4512345678"
+              href="tel:+4531213201"
               className="w-full py-2.5 bg-primary text-primary-foreground rounded-lg font-medium text-sm hover:opacity-90 transition-all uppercase tracking-wide flex items-center justify-center gap-2"
             >
               <Phone className="w-4 h-4" />
