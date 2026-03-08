@@ -8,7 +8,6 @@ const Pricing = () => {
         { name: "Børneklip (5-12 år)", price: "Fra 400,-" },
         { name: "Babyklip (0-2,5 år)", price: "Fra 350,-" },
       ],
-      note: "Tillæg for langt/tykt hår",
     },
     {
       title: "Striber",
