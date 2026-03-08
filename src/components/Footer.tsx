@@ -22,9 +22,8 @@ const Footer = () => {
               Placering
             </h4>
             <p className="text-primary-foreground/80 leading-relaxed">
-              Elegant Gade 123<br />
-              København, Danmark<br />
-              1234 AB
+              Strandvejen 72<br />
+              Hellerup 2900
             </p>
           </div>
 
