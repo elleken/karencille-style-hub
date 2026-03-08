@@ -15,7 +15,7 @@ const Header = () => {
   };
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-primary/90 backdrop-blur-sm">
+    <header className="fixed top-0 left-0 right-0 z-50 bg-primary backdrop-blur-sm">
       <nav className="container mx-auto px-4 py-2 flex items-center">
         {/* Left: Logo + mobile menu */}
         <div className="flex items-center gap-2 w-1/3">
