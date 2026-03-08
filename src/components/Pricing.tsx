@@ -16,7 +16,6 @@ const Pricing = () => {
         { name: "Hele hoved – skulder/mellem", price: "Fra 1.650,-" },
         { name: "Hele hoved – langt", price: "Fra 1.850,-" },
       ],
-      note: "Tillæg 200,-",
     },
     {
       title: "Helfarve",
