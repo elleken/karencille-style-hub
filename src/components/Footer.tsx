@@ -54,6 +54,16 @@ const Footer = () => {
                   cillelundqvist@gmail.com
                 </a>
               </p>
+              <p>
+                <a
+                  href="https://cille-lundqvist.planway.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-accent transition-colors"
+                >
+                  Online booking
+                </a>
+              </p>
             </div>
           </div>
 
