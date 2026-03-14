@@ -1,5 +1,7 @@
 import { Phone } from "lucide-react";
-import heroImage from "@/assets/hero-salon.jpg";
+import heroImage768 from "@/assets/hero-salon-768.webp";
+import heroImage1280 from "@/assets/hero-salon-1280.webp";
+import heroImage1800 from "@/assets/hero-salon-1800.webp";
 
 const Hero = () => {
   return (
@@ -11,8 +13,12 @@ const Hero = () => {
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <img
-          src={heroImage}
+          src={heroImage1280}
+          srcSet={`${heroImage768} 768w, ${heroImage1280} 1280w, ${heroImage1800} 1800w`}
+          sizes="100vw"
           alt="Smuk hårfarve og styling"
+          decoding="async"
+          loading="eager"
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/10 to-black/30"></div>

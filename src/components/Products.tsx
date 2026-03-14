@@ -1,18 +1,24 @@
-import productShampoo from "@/assets/product-shampoo.jpg";
-import productStyling from "@/assets/product-styling.jpg";
+import productShampoo320 from "@/assets/product-shampoo-320.webp";
+import productShampoo580 from "@/assets/product-shampoo-580.webp";
+import productStyling320 from "@/assets/product-styling-320.webp";
+import productStyling580 from "@/assets/product-styling-580.webp";
 
 const Products = () => {
   const products = [
     {
       name: "NATULIQUE Colour Shield Hairwash",
-      image: productShampoo,
-      description: "En mild, certificeret økologisk shampoo der beskytter og vedligeholder farvet hår. Med açaibær, timianekstrakt og silkeprotein, der forsegler hårstrået og sikrer langvarig farve. 95% naturlige ingredienser, uden parabener og silicone.",
+      image: productShampoo580,
+      srcSet: `${productShampoo320} 320w, ${productShampoo580} 580w`,
+      description:
+        "En mild, certificeret økologisk shampoo der beskytter og vedligeholder farvet hår. Med açaibær, timianekstrakt og silkeprotein, der forsegler hårstrået og sikrer langvarig farve. 95% naturlige ingredienser, uden parabener og silicone.",
       category: "Hårpleje",
     },
     {
       name: "NATULIQUE Colour Shield Conditioner",
-      image: productStyling,
-      description: "En certificeret økologisk balsam der beskytter farvet hår med tempeltræekstrakt, açaibær og silkeprotein. Forsegler hårstrået, modvirker krus og bevarer farven længere. 95% naturlige ingredienser, uden parabener og silicone.",
+      image: productStyling580,
+      srcSet: `${productStyling320} 320w, ${productStyling580} 580w`,
+      description:
+        "En certificeret økologisk balsam der beskytter farvet hår med tempeltræekstrakt, açaibær og silkeprotein. Forsegler hårstrået, modvirker krus og bevarer farven længere. 95% naturlige ingredienser, uden parabener og silicone.",
       category: "Hårpleje",
     },
   ];
@@ -21,10 +27,13 @@ const Products = () => {
     <section id="products" className="py-24 px-4 bg-background">
       <div className="container mx-auto max-w-6xl">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-heading font-bold mb-6">Produkter</h2>
+          <h2 className="text-4xl md:text-5xl font-heading font-bold mb-6">
+            Produkter
+          </h2>
           <div className="w-24 h-1 bg-primary mx-auto mb-8"></div>
           <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            Jeg arbejder med Natulique – en eksklusiv og bæredygtig hårplejeserie af høj kvalitet.
+            Jeg arbejder med Natulique – en eksklusiv og bæredygtig
+            hårplejeserie af høj kvalitet.
           </p>
         </div>
 
@@ -37,7 +46,11 @@ const Products = () => {
               <div className="aspect-square overflow-hidden bg-secondary/20">
                 <img
                   src={product.image}
+                  srcSet={product.srcSet}
+                  sizes="(min-width: 1024px) 28vw, (min-width: 768px) 40vw, 88vw"
                   alt={`${product.name} - ${product.description}`}
+                  loading="lazy"
+                  decoding="async"
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                 />
               </div>
@@ -55,7 +68,6 @@ const Products = () => {
             </div>
           ))}
         </div>
-
       </div>
     </section>
   );
