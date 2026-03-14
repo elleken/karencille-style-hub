@@ -2,10 +2,12 @@ import { MapPin, Phone, Mail, Clock, Instagram, Facebook } from "lucide-react";
 
 const Footer = () => {
   return (
-    <footer id="contact" className="bg-primary text-primary-foreground py-16 px-4">
+    <footer
+      id="contact"
+      className="bg-primary text-primary-foreground py-16 px-4"
+    >
       <div className="container mx-auto max-w-6xl">
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
-
           {/* Location */}
           <div>
             <a
@@ -17,13 +19,14 @@ const Footer = () => {
               <MapPin className="w-5 h-5 text-accent" />
               Placering
             </a>
-            <a 
+            <a
               href="https://maps.app.goo.gl/dwi2pCgxHPTQy5iK7"
               target="_blank"
               rel="noopener noreferrer"
               className="text-primary-foreground/80 hover:text-accent transition-colors leading-relaxed"
             >
-              Strandvejen 72<br />
+              Strandvejen 72
+              <br />
               Hellerup 2900
             </a>
           </div>
@@ -36,12 +39,18 @@ const Footer = () => {
             </h4>
             <div className="space-y-2 text-primary-foreground/80">
               <p>
-                <a href="tel:+4531213201" className="hover:text-accent transition-colors">
+                <a
+                  href="tel:+4531213201"
+                  className="hover:text-accent transition-colors"
+                >
                   +45 31 21 32 01
                 </a>
               </p>
               <p>
-                <a href="mailto:cillelundqvist@gmail.com" className="hover:text-accent transition-colors">
+                <a
+                  href="mailto:cillelundqvist@gmail.com"
+                  className="hover:text-accent transition-colors"
+                >
                   cillelundqvist@gmail.com
                 </a>
               </p>
@@ -66,7 +75,7 @@ const Footer = () => {
           {/* Social Media */}
           <div className="flex justify-center gap-6">
             <a
-              href="https://instagram.com"
+              href="https://www.instagram.com/cille_lundqvist"
               target="_blank"
               rel="noopener noreferrer"
               className="text-primary-foreground hover:text-accent transition-colors"
@@ -75,7 +84,7 @@ const Footer = () => {
               <Instagram className="w-6 h-6" />
             </a>
             <a
-              href="https://facebook.com"
+              href="https://www.facebook.com/cille.olsen.9"
               target="_blank"
               rel="noopener noreferrer"
               className="text-primary-foreground hover:text-accent transition-colors"
